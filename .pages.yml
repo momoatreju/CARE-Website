@@ -1,0 +1,15 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - label: Seiten
+    path: content/pages
+    type: collection
+    fields:
+      - name: title
+        label: Titel
+        type: string
+      - name: body
+        label: Inhalt
+        type: rich-text
