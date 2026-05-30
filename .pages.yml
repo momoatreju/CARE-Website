@@ -4,6 +4,7 @@ media:
 
 content:
   - label: Seiten
+    id: pages
     path: content/pages
     type: collection
     fields:
